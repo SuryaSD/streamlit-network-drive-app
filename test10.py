@@ -4,8 +4,8 @@ import os
 import getpass
 #st.write(getpass.getuser())
 
-# Get the username
-username = os.getlogin()
+# Get the username from environment variable
+username = os.getenv('USERNAME')
 
 # Display the username in Streamlit
 st.write(f"Hello, {username}!")
