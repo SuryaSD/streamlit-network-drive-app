@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import os
+
 
 # Path to the network drive
 network_drive_path = r"G:\MERCH\VSL Reporting and Analytics\SAS\MSI_Data_Dump\Checking_Delete.xlsx"
@@ -29,8 +29,6 @@ def main():
     else:
         st.write("No data available to display.")
         
-user_id = os.getlogin()
-st.write(user_id)
 
 if __name__ == "__main__":
     main()
