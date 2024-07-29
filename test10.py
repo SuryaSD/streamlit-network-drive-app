@@ -4,7 +4,7 @@ import os
 
 
 # Path to the network drive
-network_drive_path = r"G:\MERCH\VSL Reporting and Analytics\SAS\MSI_Data_Dump\Checking_Delete.xlsx"
+network_drive_path = r"\\ltssvcp2nas\Victoria\MERCH\VSL Reporting and Analytics\SAS\MSI_Data_Dump\Checking_Delete.xlsx"
 
 @st.cache_resource
 def load_data(filepath):
